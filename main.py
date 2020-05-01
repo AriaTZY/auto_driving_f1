@@ -3,8 +3,10 @@ import cv2 as cv
 import numpy as np
 import time
 import os
-from get_key import key_check, char_check, KEY_DOWN, KEY_LEFT, KEY_RIGHT, KEY_UP, key_check_hot
-from grab_screen import grab_screen
+is_linux = True
+if not is_linux:
+    from get_key import key_check, char_check, KEY_DOWN, KEY_LEFT, KEY_RIGHT, KEY_UP, key_check_hot
+    from grab_screen import grab_screen
 
 
 def line_detection(img, scope_threshold=0.2):
