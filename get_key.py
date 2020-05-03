@@ -10,6 +10,7 @@ KEY_LEFT = 37
 KEY_UP = 38
 KEY_RIGHT = 39
 KEY_DOWN = 40
+# keyList = [ord('J'), ord('L'), ord('I'), ord('K')]  # 两种控制方案
 keyList = [KEY_LEFT, KEY_RIGHT, KEY_UP, KEY_DOWN]
 
 
@@ -21,6 +22,13 @@ def char_check():
         if wapi.GetAsyncKeyState(key):  # 这个只针对于上下左右键
             keys.append(key)
     return keys
+
+
+# 专门检测char的
+def stop_check():
+    if wapi.GetAsyncKeyState(ord('T')):  # 这个只针对于上下左右键
+        return True
+    return False
 
 
 # 专门检测上下左右键的
