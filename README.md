@@ -20,7 +20,7 @@ Auto driving Formula 1 2019 Game / Go Kart with Deep Learning
   
 ## 根目录结构
 * 根目写在config文件中的 ROOT_PATH 变量中，根据不同情况做调整，以下是根目录结构
-- data (根目录)
+- data (根目录)\n
 -- image (存放所有jpeg格式图片)
 -- npy (里面就一个文件，存放着control信息的numpy数组)
 
@@ -54,5 +54,6 @@ Auto driving Formula 1 2019 Game / Go Kart with Deep Learning
 ## 可视化训练进程
   使用tensorboardX进行可视化，但前提需要安装所有tensorflow组件包，否则不能使用tensorboard查看（但程序不会报错）
   * 输出位置为：./output/run/dir or speed 
-  * 查看时首先在项目的根目录下打开cmd窗口或prompt，输入： tensorboard --logdir=./output/run/speed or dir --port=6000
+  * 查看时首先在项目的根目录下打开cmd窗口或prompt
+  * 输入： tensorboard --logdir=./output/run/speed or dir --port=6000
 
