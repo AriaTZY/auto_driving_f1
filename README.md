@@ -37,7 +37,7 @@ Auto driving Formula 1 2019 Game / Go Kart with Deep Learning
 3. 直接打开AI_play文件，在config的 MODEL_DIR_PATH 属性中更改至当前的模型路径（一般不用更改）
 4. 直接run AI_play这个文件即可
 
-游戏连接：[3D卡丁车竞速](http://www.4399.com/flash/122786_1.htm)  raw:http://www.4399.com/flash/122786_1.htm
+游戏连接：[3D卡丁车竞速](http://www.4399.com/flash/122786_1.htm)   原网址:http://www.4399.com/flash/122786_1.htm
 
 ## 训练网络
 1. 在config中首先配置好 DATA_ROOT_PATH 和 DATA_ROOT_PATH_VAL 的根目录
@@ -53,6 +53,6 @@ Auto driving Formula 1 2019 Game / Go Kart with Deep Learning
 
 ## 可视化训练进程
   使用tensorboardX进行可视化，但前提需要安装所有tensorflow组件包，否则不能使用tensorboard查看（但程序不会报错）
-  *输出位置为：./output/run/dir or speed 
-  *查看时首先在项目的根目录下打开cmd窗口或prompt，输入： tensorboard --logdir=./output/run/speed or dir --port=6000
+  * 输出位置为：./output/run/dir or speed 
+  * 查看时首先在项目的根目录下打开cmd窗口或prompt，输入： tensorboard --logdir=./output/run/speed or dir --port=6000
 
