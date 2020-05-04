@@ -20,9 +20,9 @@ Auto driving Formula 1 2019 Game / Go Kart with Deep Learning
   
 ## 根目录结构
 * 根目写在config文件中的 ROOT_PATH 变量中，根据不同情况做调整，以下是根目录结构
-- data (根目录)\n
--- image (存放所有jpeg格式图片)
--- npy (里面就一个文件，存放着control信息的numpy数组)
+- data (根目录)  
+-- image (存放所有jpeg格式图片)  
+-- npy (里面就一个文件，存放着control信息的numpy数组)  
 
 ### 数据格式要求
 * 图片是以JPEG格式存放的，以0-xxx编号
