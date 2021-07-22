@@ -60,6 +60,6 @@ Auto driving Formula 1 2019 Game / Go Kart with Deep Learning
 ## 实际测试
   由于卡丁车游戏的视角高（车尾视角）且道路简单，神经网络网络在卡丁车游戏中表现得非常好，暂时还未实现在F1 2019游戏的自动驾驶。
   * 驾驶片段:
-<video id="video" controls="" preload="none">
-  <source id="mp4" src="./docs/video.mp4" type="video/mp4">
-</video> 
+  ![img][./docs/drive.gif]
+  * 驾驶视频请在这里下载观看(videp.mp4 文件)
+  [video][./docs/]
