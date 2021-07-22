@@ -62,4 +62,4 @@ Auto driving Formula 1 2019 Game / Go Kart with Deep Learning
   * 驾驶片段:
   <video id="video" controls="" preload="none">
     <source id="mp4" src="./docs/video.mp4" type="video/mp4">
-  </video>
+  </video> 
